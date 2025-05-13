@@ -1,0 +1,21 @@
+[project]
+name = "pipeline-etl-completo"
+version = "0.1.0"
+description = "Pipeline completo com python, FastAPI, banco de dados em PostgreSQL e versionamento no Git e GitHub"
+authors = [
+    {name = "leovnoliveira",email = "consultoria1.ceo@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "yfinance (>=0.2.61,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
